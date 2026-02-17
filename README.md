@@ -2,7 +2,7 @@
 
 **High‑quality audio extraction from YouTube & YouTube Music**
 
-![OZYREN UI Preview](https://via.placeholder.com/800x400.png?text=OZYREN+UI+Preview)
+
 
 ## ✨ Features
 - Supports **YouTube** and **YouTube Music** links.
@@ -18,7 +18,7 @@
 ### Local (Node.js)
 1. Install [Node.js](https://nodejs.org) (≥18), [ffmpeg](https://ffmpeg.org), and [yt‑dlp](https://github.com/yt-dlp/yt-dlp).
 2. Clone the repo and install dependencies:
-   git clone https://github.com/YOUR_USERNAME/ozyren-yt-downloader.git
+   git clone https://github.com/erfanjahi0/ozyren-yt-downloader.git
    cd ozyren-yt-downloader
    npm install
 3. Start the server:
