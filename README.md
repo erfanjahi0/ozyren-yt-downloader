@@ -18,12 +18,15 @@
 ### Local (Node.js)
 1. Install [Node.js](https://nodejs.org) (≥18), [ffmpeg](https://ffmpeg.org), and [yt‑dlp](https://github.com/yt-dlp/yt-dlp).
 2. Clone the repo and install dependencies:
+   ```bash
+   
    git clone https://github.com/erfanjahi0/ozyren-yt-downloader.git
    cd ozyren-yt-downloader
    npm install
-3. Start the server:
+   ```
+4. Start the server:
    npm start
-4. Visit `http://localhost:3000` in your browser.
+5. Visit `http://localhost:3000` in your browser.
 
 ### 📱 Android (Termux)
 See **[termuxsetup.md](termuxsetup.md)** for step‑by‑step instructions.
