@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OZYREN · YT Music Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-container">
+    <div class="brand">
+      <h1>🎵 OZYREN</h1>
+      <p>YT Music Downloader · High Quality Audio</p>
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="urlInput" placeholder="Paste YouTube or YouTube Music link...">
+      <button id="fetchBtn" onclick="fetchInfo()">🔍 Extract</button>
+    </div>
+
+    <div class="options">
+      <select id="formatSelect">
+        <option value="mp3">MP3</option>
+        <option value="m4a">M4A</option>
+        <option value="webm">WebM</option>
+      </select>
+      <select id="qualitySelect">
+        <option value="0">Best quality (320kbps)</option>
+        <option value="192k">192 kbps</option>
+        <option value="128k">128 kbps</option>
+      </select>
+    </div>
+
+    <div id="preview" class="preview hidden">
+      <img id="thumbnail" src="" alt="Thumbnail">
+      <div class="details">
+        <h3 id="title">Video title</h3>
+        <p id="channel">Channel name</p>
+        <p id="duration">Duration: --:--</p>
+      </div>
+    </div>
+
+    <button id="downloadBtn" class="download-btn" onclick="downloadAudio()" disabled>⬇ Download Audio</button>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
