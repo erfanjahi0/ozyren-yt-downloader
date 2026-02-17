@@ -14,9 +14,12 @@ pkg install -y nodejs ffmpeg python git
 pip install yt-dlp
 
 ## 4. Clone the repository
-git clone https://github.com/YOUR_USERNAME/ozyren-yt-downloader.git
+```bash
+
+git clone https://github.com/erfanjahi0/ozyren-yt-downloader.git
 cd ozyren-yt-downloader
-*Replace `YOUR_USERNAME` with your actual GitHub username.*
+```
+
 
 ## 5. Install Node.js dependencies
 npm install
